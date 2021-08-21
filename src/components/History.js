@@ -24,4 +24,4 @@ const History = ({ history, moveTo, currentMove }) => {
   );
 };
 
-export default history;
+export default History;
