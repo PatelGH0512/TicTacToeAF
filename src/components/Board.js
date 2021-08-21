@@ -1,12 +1,12 @@
 import React from 'react';
 import Square from './Square';
 
-const Board = ({ board, handlerSquareClick }) => {
+const Board = ({ board, handleSquareClick }) => {
   const renderSquare = position => {
     return (
       <Square
         value={board[position]}
-        onClick={() => handlerSquareClick(position)}
+        onClick={() => handleSquareClick(position)}
       />
     );
   };
